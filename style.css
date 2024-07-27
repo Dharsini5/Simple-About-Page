@@ -1,0 +1,65 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	outline: none;
+}
+.whatsapp {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    position: fixed;
+    right: 20px;
+    bottom: 120px;
+    font-size: 16px;
+    border-radius:none;
+}
+.logo{
+	    width: 110px !important;
+        height: 60px !important;
+
+}
+.vt{
+	display: flex;
+	gap: 120px;
+}
+.list{
+	display: flex;
+	list-style-type: none;
+	gap: 100px;
+}
+.list a{
+	text-decoration: none;
+	color: black;
+}
+.about{
+	background-image:url("backgro.jpg") ;
+	background-repeat: no-repeat;
+    background-size: auto;
+    background-position: fixed;
+    height: 350px;
+	color: white;
+	margin-top: 20px;
+	font-size: 20px;
+	text-align: center;
+}
+.second{
+	display: flex;
+}
+.head{
+	position: relative;
+	text-transform:uppercase !important;
+}
+.text{
+	position: relative;
+	font-size: 16px;
+	margin-bottom: 17px;
+	color: black;
+	text-align: justify !important;
+	padding-top: 10px;
+}
+.ab{
+	padding-top: 130px;
+	font-size: 15px;
+	font-style: block;
+}
